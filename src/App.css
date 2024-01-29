@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.add_modal {
+  background-color: whitesmoke;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.add_modal > label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add_modal > h2 {
+  text-align: center;
+}
+
+.add_modal > label > input {
+  background-color: lightgray;
+  color: rgb(23, 23, 23);
+}
+
+.card {
+  width: 150px;
+}
+
+.card > img {
+  width: 150px;
+  height: 200px;
+  background-color: gold;
+}
+
+.card__prices {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card__old_price {
+  text-decoration: line-through;
+}
+
+.cards__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+}
