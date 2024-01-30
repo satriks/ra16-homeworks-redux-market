@@ -12,7 +12,7 @@ function CardList() {
       <h2>Приглядитесь к этим предложениям</h2>
       <div className="cards__wrapper">
         {cards.map((card: CardType) => (
-          <Card card={card} />
+          <Card card={card} key={card.id} />
         ))}
       </div>
     </div>
